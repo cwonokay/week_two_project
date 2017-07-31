@@ -68,7 +68,7 @@ let more = []
 function question5 () {
 
   for (var i = 0; i < data.length; i++) {
-    if (data[i].materials.length<= 8) {
+    if (data[i].materials.length>= 8) {
 
       more.push(data[i].title,data[i].quantity,data[i].materials)
 
